@@ -1,0 +1,163 @@
+<style>
+    @media (max-width: 576px) {
+        .cpt-small-column-one {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<div class="cpt-tournament-info-wrapper">
+    <div id="ruby-tm-dark-root"
+        style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: transparent; color: rgb(224, 224, 224); max-width: 100%; margin: 0px auto; padding: 16px 0; line-height: 1.5; box-sizing: border-box; border-radius: 8px;">
+
+        <!-- Mission Overview -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 15px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🎯 Mission
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Complete the required objective during the active mission period.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Mission progress is tracked automatically based on eligible activity.
+                </div>
+
+                <div style="padding: 0.4em 0;">
+                    Complete the objective to receive the available reward.
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Mission Structure -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🏆 Structure
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    <strong>Objective:</strong> Complete the mission requirement
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    <strong>Progress:</strong> Tracked automatically
+                </div>
+
+                <div style="padding: 0.4em 0;">
+                    <strong>Reward:</strong> Granted after successful completion
+                </div>
+
+            </div>
+        </section>
+
+        <!-- How to Complete -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🎮 How to Complete
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Follow the mission objective shown on the mission card.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Complete the required activity during the mission period.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Only eligible activity contributes to mission progress.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Progress is updated automatically when eligible activity is recorded.
+                </div>
+
+                <div style="padding: 0.4em 0;">
+                    Complete the required objective before the mission expires.
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Mission Rules -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                📜 Mission Rules
+            </h3>
+
+            <ul
+                style="margin: 0px; padding: 0px 0px 0px 1.8em; font-size: 0.85em; color: rgb(136, 136, 136);">
+
+                <li style="margin-bottom: 0.6em;">
+                    The mission is available only during the displayed mission period.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Only eligible activity counts toward mission progress.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Mission progress is calculated according to the mission requirements.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Progress may take some time to appear after eligible activity is completed.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    The mission must be completed before it expires.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Rewards are available only after the mission objective has been successfully completed.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Rewards may need to be claimed where required by the mission.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Each mission can only be completed according to its configured completion rules.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Fraudulent, abusive, automated, or prohibited activity may result in mission progress being removed or the player being disqualified.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    The mission may be changed, suspended, or cancelled where necessary.
+                </li>
+
+            </ul>
+        </section>
+
+    </div>
+</div>
