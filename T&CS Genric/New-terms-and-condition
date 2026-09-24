@@ -1,0 +1,159 @@
+<style>
+    @media (max-width: 576px) {
+        .cpt-small-column-one {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<div class="cpt-tournament-info-wrapper">
+    <div id="ruby-tm-dark-root"
+        style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: transparent; color: rgb(224, 224, 224); max-width: 100%; margin: 0px auto; padding: 16px 0; line-height: 1.5; box-sizing: border-box; border-radius: 8px;">
+
+        <!-- Tournament Overview -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 15px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🏆 Tournament
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Players participate in the tournament during the published tournament period.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Points are awarded according to the tournament rules.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0;">
+                    Players are ranked on the tournament leaderboard based on their eligible points.
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Structure -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🏆 Structure
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    <strong>Format:</strong> Leaderboard-based competition
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    <strong>Ranking:</strong> Based on eligible points earned
+                </div>
+
+                <div style="padding: 0.4em 0;">
+                    <strong>Results:</strong> Final rankings are determined when the tournament ends
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Participation -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                🎯 Participation
+            </h3>
+
+            <div style="font-size: 0.85em; color: rgb(176, 176, 176);">
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Participation is available to eligible players during the tournament period.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Only eligible gameplay and activities count toward the tournament.
+                </div>
+
+                <div
+                    style="padding: 0.4em 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                    Tournament points are calculated according to the applicable tournament rules.
+                </div>
+
+                <div style="padding: 0.4em 0;">
+                    Players can view their progress and ranking on the tournament leaderboard.
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Official Rules -->
+        <section
+            style="background: rgba(255, 255, 255, 0.04); border-radius: 0.8em; padding: 1em; margin-bottom: 1em; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 30px;">
+
+            <h3
+                style="margin: 0px 0px 1em; font-size: 0.85em; text-transform: uppercase; color: rgb(170, 170, 170); letter-spacing: 2px;">
+                📜 Official Rules
+            </h3>
+
+            <ul
+                style="margin: 0px; padding: 0px 0px 0px 1.8em; font-size: 0.85em; color: rgb(136, 136, 136);">
+
+                <li style="margin-bottom: 0.6em;">
+                    The tournament is available only during the published tournament period.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Only eligible gameplay and activities count toward the leaderboard.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Leaderboard rankings may be updated during the tournament.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Final rankings are determined when the tournament ends.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    In case of a tie, the applicable tournament tie-breaking rule will apply.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Rewards are provided to eligible winners according to the tournament details.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Any fraudulent, abusive, or prohibited activity may result in disqualification.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    Tournament results may be adjusted to correct verified technical or scoring errors.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    The tournament may be changed, suspended, or cancelled where necessary.
+                </li>
+
+                <li style="margin-bottom: 0.6em;">
+                    By participating, players agree to these Tournament Terms &amp; Conditions.
+                </li>
+
+            </ul>
+        </section>
+
+    </div>
+</div>
