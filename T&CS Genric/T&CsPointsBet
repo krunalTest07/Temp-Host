@@ -1,0 +1,859 @@
+<style>
+/* =========================================================
+   PB REWARDS CLUB - TERMS & CONDITIONS
+   Theme: Black / Purple / Hot Pink / Gold
+   ========================================================= */
+
+:root {
+    --pb-bg: #08070c;
+    --pb-bg-2: #100b17;
+    --pb-card: #0d0b12;
+    --pb-card-2: #15101c;
+
+    --pb-pink: #ff0050;
+    --pb-pink-light: #ff174f;
+    --pb-pink-soft: rgba(255, 0, 80, 0.15);
+
+    --pb-gold: #ffbf00;
+    --pb-gold-soft: rgba(255, 191, 0, 0.15);
+
+    --pb-white: #ffffff;
+    --pb-text: #e9e7ec;
+    --pb-muted: #aaa6b0;
+    --pb-border: rgba(255,255,255,0.10);
+}
+
+/* Reset only inside T&C */
+.pb-tc,
+.pb-tc * {
+    box-sizing: border-box;
+}
+
+.pb-tc {
+    width: 100%;
+    max-width: 760px;
+    height: 100%;
+    margin: 0 auto;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    color: var(--pb-text);
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(110, 0, 150, 0.20),
+            transparent 42%
+        ),
+        linear-gradient(
+            180deg,
+            #0b0810 0%,
+            #08070c 100%
+        );
+
+    line-height: 1.55;
+    font-size: 14px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding: 0 24px 30px;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--pb-pink) #18131d;
+}
+
+/* Chrome / Edge / Safari scrollbar */
+.pb-tc::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pb-tc::-webkit-scrollbar-track {
+    background: #18131d;
+}
+
+.pb-tc::-webkit-scrollbar-thumb {
+    background: var(--pb-pink);
+    border-radius: 10px;
+}
+
+.pb-tc::-webkit-scrollbar-thumb:hover {
+    background: var(--pb-pink-light);
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.pb-tc-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+
+    padding: 22px 0 18px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(8,7,12,0.98) 0%,
+            rgba(8,7,12,0.94) 75%,
+            rgba(8,7,12,0) 100%
+        );
+
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.pb-tc-label {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 5px 9px;
+
+    margin-bottom: 10px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+
+    color: #111;
+    background: var(--pb-gold);
+
+    border-radius: 3px;
+}
+
+.pb-tc-title {
+    margin: 0;
+
+    color: var(--pb-white);
+
+    font-size: 25px;
+    line-height: 1.15;
+    font-weight: 800;
+
+    letter-spacing: -0.4px;
+}
+
+.pb-tc-title::after {
+    content: "";
+    display: block;
+
+    width: 42px;
+    height: 3px;
+
+    margin-top: 10px;
+
+    background: var(--pb-pink);
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px rgba(255,0,80,0.45);
+}
+
+.pb-tc-subtitle {
+    margin: 11px 0 0;
+
+    color: var(--pb-muted);
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   DOCUMENT CONTENT
+   ========================================================= */
+
+.pb-tc-content {
+    padding-top: 10px;
+}
+
+.pb-tc-content h2 {
+    position: relative;
+
+    margin: 28px 0 12px;
+    padding: 0 0 8px 13px;
+
+    color: var(--pb-white);
+
+    font-size: 17px;
+    line-height: 1.25;
+
+    font-weight: 800;
+
+    border-bottom: 1px solid var(--pb-border);
+}
+
+.pb-tc-content h2::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 1px;
+
+    width: 4px;
+    height: calc(100% - 8px);
+
+    background: var(--pb-pink);
+    border-radius: 4px;
+
+    box-shadow: 0 0 8px rgba(255,0,80,0.35);
+}
+
+.pb-tc-content h3 {
+    margin: 21px 0 8px;
+
+    color: #f5f3f7;
+
+    font-size: 14px;
+    line-height: 1.35;
+
+    font-weight: 750;
+}
+
+.pb-tc-content p {
+    margin: 0 0 11px;
+
+    color: var(--pb-text);
+
+    font-size: 13px;
+    line-height: 1.62;
+}
+
+.pb-tc-content strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   LISTS
+   ========================================================= */
+
+.pb-tc-content ol,
+.pb-tc-content ul {
+    margin: 8px 0 16px;
+    padding-left: 24px;
+}
+
+.pb-tc-content li {
+    margin: 0 0 9px;
+
+    padding-left: 4px;
+
+    color: var(--pb-text);
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.pb-tc-content ol > li::marker {
+    color: var(--pb-pink);
+    font-weight: 700;
+}
+
+.pb-tc-content ul > li::marker {
+    color: var(--pb-gold);
+}
+
+
+/* Nested lists */
+.pb-tc-content li ol,
+.pb-tc-content li ul {
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.pb-tc-content li li {
+    margin-bottom: 6px;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+.pb-tc-content a {
+    color: var(--pb-gold);
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition:
+        color 0.2s ease,
+        text-shadow 0.2s ease;
+}
+
+.pb-tc-content a:hover {
+    color: #ffd45c;
+
+    text-shadow:
+        0 0 8px rgba(255,191,0,0.35);
+}
+
+
+/* =========================================================
+   IMPORTANT / INFO BLOCKS
+   ========================================================= */
+
+.pb-tc-info {
+    margin: 18px 0;
+    padding: 14px 16px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,0,80,0.09),
+            rgba(100,0,130,0.08)
+        );
+
+    border: 1px solid rgba(255,0,80,0.18);
+    border-left: 3px solid var(--pb-pink);
+
+    border-radius: 7px;
+}
+
+.pb-tc-info p {
+    margin: 0;
+}
+
+
+/* =========================================================
+   VERSION / META
+   ========================================================= */
+
+.pb-tc-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin: 12px 0 6px;
+}
+
+.pb-tc-meta span {
+    display: inline-flex;
+    align-items: center;
+
+    min-height: 25px;
+
+    padding: 4px 9px;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 4px;
+
+    color: var(--pb-muted);
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.pb-tc-footer {
+    margin-top: 35px;
+    padding: 20px 0 10px;
+
+    text-align: center;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    color: #77727d;
+
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.pb-tc-footer strong {
+    color: var(--pb-gold);
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .pb-tc {
+        max-width: 100%;
+        padding: 0 17px 25px;
+
+        font-size: 13px;
+    }
+
+    .pb-tc-header {
+        padding: 18px 0 15px;
+    }
+
+    .pb-tc-title {
+        font-size: 21px;
+    }
+
+    .pb-tc-content h2 {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+
+    .pb-tc-content h3 {
+        font-size: 13px;
+    }
+
+    .pb-tc-content p,
+    .pb-tc-content li {
+        font-size: 12px;
+        line-height: 1.58;
+    }
+
+    .pb-tc-content ol,
+    .pb-tc-content ul {
+        padding-left: 21px;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .pb-tc {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .pb-tc-title {
+        font-size: 19px;
+    }
+
+    .pb-tc-content p,
+    .pb-tc-content li {
+        font-size: 11.5px;
+    }
+}
+</style>
+
+
+<div class="pb-tc">
+
+    <!-- HEADER -->
+    <div class="pb-tc-header">
+
+        <div class="pb-tc-label">
+            PB REWARDS CLUB
+        </div>
+
+        <h1 class="pb-tc-title">
+            Terms &amp; Conditions
+        </h1>
+
+        <p class="pb-tc-subtitle">
+            General Terms and Conditions – Canada – Ontario
+        </p>
+
+        <div class="pb-tc-meta">
+            <span>Last Update: 05/01/2026</span>
+            <span>Version 1.8</span>
+        </div>
+
+    </div>
+
+
+    <!-- TERMS CONTENT -->
+    <div class="pb-tc-content">
+
+        <h2>1. GENERAL TERMS</h2>
+
+        <h3>
+            1.1. WHO WE ARE AND APPLICATION OF THESE GENERAL TERMS AND CONDITIONS
+        </h3>
+
+        <ol>
+            <li>
+                Welcome to PointsBet Sportsbook and Casino. These general terms
+                and conditions (“Rules”, “Terms” or “Terms and Conditions”)
+                govern any access to and use of the Services. Each unique
+                contest, sport or game may have specific rules, which you
+                should consult in order to understand the parameters and
+                terms for those games.
+            </li>
+
+            <li>
+                The website
+                <a href="https://www.pointsbet.ca" target="_blank">
+                    www.pointsbet.ca
+                </a>
+                (the “Website”) and the mobile, tablet and other PointsBet
+                apps (all of which together are referred to as the
+                “PointsBet Apps”) are operated and controlled by PointsBet
+                Canada Operations 1 Inc (“PointsBet”) on behalf of, and
+                pursuant to the oversight, regulatory requirements and
+                registration of, iGaming Ontario, an agency of the Government
+                of Ontario that conducts and manages internet gaming in the
+                Province of Ontario.
+            </li>
+
+            <li>
+                All references to “we”, “us” and “our” in these Terms are a
+                reference to PointsBet. All references to “you” and “your”
+                refer to yourself as an individual who holds an account with
+                PointsBet (each, a “Member”).
+            </li>
+
+            <li>
+                We reserve the right for each or any member of the PointsBet
+                group of companies, including parent entities and affiliates,
+                to exercise any of the rights or obligations of any other
+                member of the PointsBet group pursuant to these Terms.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.2. GENERAL TERMS AND CONDITIONS
+        </h3>
+
+        <ol>
+            <li>
+                Please read these Terms carefully before using the Services.
+                By visiting the Website or utilizing the PointsBet Apps,
+                you understand and agree to be bound by these Terms and
+                Conditions, the Privacy Policy, the House Rules and all
+                other applicable terms, rules or policies.
+            </li>
+
+            <li>
+                The following people are not permitted to access or use the
+                Services, including individuals under 19 years of age,
+                self-excluded individuals, individuals restricted by court
+                order and other excluded persons defined by applicable
+                regulations.
+            </li>
+
+            <li>
+                By opening an Account, you are deemed to have read and
+                accepted these Terms and understand that your personal
+                information will be treated in accordance with PointsBet's
+                Privacy Policy.
+            </li>
+
+            <li>
+                PointsBet reserves the right to change, amend or make
+                additions to these Terms and the Privacy Policy. Material
+                changes will be communicated through the applicable
+                PointsBet services.
+            </li>
+
+            <li>
+                The Terms herein are intended to contain all the terms of
+                the agreement with you in relation to your betting.
+            </li>
+
+            <li>
+                By opening an Account on PointsBet, you consent to the
+                jurisdiction of the province in which your account is
+                registered.
+            </li>
+
+            <li>
+                All title, ownership and intellectual property rights in
+                and to the Service are owned by PointsBet.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.3. MEMBER OBLIGATIONS
+        </h3>
+
+        <ol>
+            <li>
+                Members must register for an account in order to participate
+                in a contest on our Service. You agree to provide accurate,
+                current and complete user information and promptly update
+                information as it changes.
+            </li>
+
+            <li>
+                You must be physically located within the jurisdictional
+                boundaries of the province in which PointsBet is licensed
+                to conduct sports betting.
+            </li>
+
+            <li>
+                PointsBet may detect and monitor the geolocation of Members
+                attempting to place bets and periodically monitor account
+                transactions.
+            </li>
+
+            <li>
+                By opening an account, you consent to allowing the applicable
+                gaming regulatory body to monitor and record wagering
+                communications and geographic location information.
+            </li>
+
+            <li>
+                If PointsBet discovers that an Account has been opened by
+                someone other than the Member named on the account, PointsBet
+                may request proof of payment method, personal identification
+                and bank account information.
+            </li>
+
+            <li>
+                PointsBet may suspend or terminate an account if third-party
+                mechanisms are used to bypass geolocation requirements.
+            </li>
+
+            <li>
+                Members must comply with the requirements necessary to fully
+                activate an Account and withdraw funds.
+            </li>
+
+            <li>
+                Prohibited Members may include individuals under nineteen
+                years of age, self-excluded individuals, persons restricted
+                by court order and other individuals specified by applicable
+                law or regulation.
+            </li>
+
+            <li>
+                Prohibited members are not eligible to receive any winnings
+                except where applicable to self-excluded individuals.
+            </li>
+
+            <li>
+                Individuals with access to non-public information related
+                to an event may be prohibited from betting on that event.
+            </li>
+
+            <li>
+                Athletes, coaches, managers, owners and individuals with
+                sufficient authority to influence an event may be prohibited
+                from betting on events governed by the relevant authority.
+            </li>
+
+            <li>
+                PointsBet reserves the right to limit activity where
+                responsible betting concerns arise.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.4. MEMBER IDENTIFICATION REQUIREMENTS
+        </h3>
+
+        <ol>
+            <li>
+                PointsBet may confirm your identity by requesting Member Data
+                during the registration process.
+            </li>
+
+            <li>
+                You must be at least nineteen (19) years old to create an
+                account or make a wager on PointsBet.
+            </li>
+
+            <li>
+                You represent that you meet the applicable Canadian
+                residency and location requirements.
+            </li>
+
+            <li>
+                You may be required to provide identification information
+                for compliance with applicable Anti-Money Laundering
+                requirements.
+            </li>
+
+            <li>
+                PointsBet may conduct ongoing identity screening and
+                verification checks as required by applicable regulations.
+            </li>
+
+            <li>
+                Acceptable identification may include valid government-issued
+                photo identification and other approved verification sources.
+            </li>
+
+            <li>
+                Additional documentation may be requested where required to
+                verify identity or eligibility.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.5. ACCOUNT SECURITY
+        </h3>
+
+        <ol>
+            <li>
+                You are responsible for ensuring that your username,
+                password, PIN and other security details are kept confidential.
+            </li>
+
+            <li>
+                Your Account is for your sole personal use and must not be
+                used by a third party.
+            </li>
+
+            <li>
+                You are responsible for transactions performed using your
+                valid account credentials, subject to applicable rules.
+            </li>
+
+            <li>
+                Members should check their account balance when logging in
+                or placing a bet and notify PointsBet promptly of any issue.
+            </li>
+
+            <li>
+                The website contains adult content and is intended for
+                persons who are at least nineteen (19) years of age.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.6. DEPOSITS AND WITHDRAWALS
+        </h3>
+
+        <ol>
+            <li>
+                By depositing funds, you agree to provide information
+                required for identity checks and compliance with applicable
+                rules and regulations.
+            </li>
+
+            <li>
+                Deposits may be made using payment methods made available
+                through the Website.
+            </li>
+
+            <li>
+                Member winnings and deposits are handled in accordance with
+                applicable regulatory requirements.
+            </li>
+
+            <li>
+                PointsBet may add or remove payment options from time to time.
+            </li>
+
+            <li>
+                Payment methods must generally belong to the Member or be
+                otherwise authorized under applicable rules.
+            </li>
+
+            <li>
+                PointsBet may place restrictions on deposits or withdrawals
+                where identification or compliance requirements have not
+                been satisfied.
+            </li>
+
+            <li>
+                Withdrawals may be subject to security, compliance and
+                processing checks.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.7. CHARGE BACKS
+        </h3>
+
+        <ol>
+            <li>
+                Members agree that chargebacks or cancellation of deposits
+                should not be made without appropriate authorization.
+            </li>
+
+            <li>
+                Where a financial transaction is disputed, PointsBet may
+                temporarily suspend an account while investigating.
+            </li>
+
+            <li>
+                PointsBet may request supporting documentation relating to
+                disputed financial transactions.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.8. FRAUD
+        </h3>
+
+        <ol>
+            <li>
+                PointsBet may withhold deposited funds or winnings where
+                fraudulent or unauthorized payment activity is identified.
+            </li>
+
+            <li>
+                Third-party technologies may be used to detect suspicious
+                account activity and protect the integrity of the Services.
+            </li>
+
+            <li>
+                Accounts may be closed and bets may be voided where fraud,
+                money laundering or other suspicious activity is identified,
+                subject to applicable rules.
+            </li>
+
+            <li>
+                Accounts may be reviewed for unusual or irregular betting
+                activity.
+            </li>
+
+            <li>
+                Members must not knowingly disguise or interfere with the
+                IP address or device information used to access the Website.
+            </li>
+
+            <li>
+                Prohibited activities may include software-assisted methods,
+                automated betting software, harmful applications, abusive
+                material and misuse of bonuses or promotions.
+            </li>
+        </ol>
+
+
+        <h3>
+            1.9. SUSPICIOUS BETTING
+        </h3>
+
+        <ol>
+            <li>
+                Suspicious betting may refer to circumstances where there
+                are reasonable grounds to believe that bets have been placed
+                under suspicious circumstances, including potential cheating,
+                collusion or unusual betting patterns.
+            </li>
+        </ol>
+
+
+        <!-- Continue remaining sections from the existing
+             Terms & Conditions document here. -->
+
+
+        <div class="pb-tc-info">
+            <p>
+                Please ensure that you review the complete and current Terms
+                &amp; Conditions before using the applicable Services.
+            </p>
+        </div>
+
+    </div>
+</div>
